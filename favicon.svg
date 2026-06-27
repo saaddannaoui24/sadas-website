@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="4" fill="#0d0d0d"/>
+  <!-- Geometric S-mark in gold -->
+  <rect x="5"  y="4"  width="22" height="5.5" rx="1" fill="#C9A84C"/>
+  <rect x="19" y="9.5" width="8"  height="9"   rx="1" fill="#C9A84C" opacity=".9"/>
+  <rect x="5"  y="13" width="22" height="5.5" rx="1" fill="#C9A84C"/>
+  <rect x="5"  y="18.5" width="8" height="9"  rx="1" fill="#C9A84C" opacity=".9"/>
+  <rect x="5"  y="22.5" width="22" height="5.5" rx="1" fill="#C9A84C"/>
+</svg>
