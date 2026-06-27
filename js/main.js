@@ -84,6 +84,9 @@
       'contact-wa-cta-title': 'Prefer to Message Us?',
       'contact-wa-cta-p': 'WhatsApp is the fastest way to reach us. Send us a message and we will get back to you as quickly as possible.',
       'contact-wa-btn': 'Message on WhatsApp',
+      'contact-social-title': 'Follow Us',
+      'contact-social-p': 'Stay connected and follow our latest updates.',
+      'social-facebook': 'Facebook', 'social-instagram': 'Instagram', 'social-tiktok': 'TikTok',
       /* page titles */
       'pt-index': 'SADAS — Precious Metals & Financial Services | Tripoli, Lebanon',
       'pt-about': 'About — SADAS | Tripoli, Lebanon',
@@ -194,6 +197,9 @@
       'contact-wa-cta-title': 'تفضل بمراسلتنا؟',
       'contact-wa-cta-p': 'واتساب هو أسرع وسيلة للتواصل معنا. أرسل لنا رسالة وسنرد عليك في أقرب وقت ممكن.',
       'contact-wa-btn': 'راسلنا على واتساب',
+      'contact-social-title': 'تابعنا',
+      'contact-social-p': 'ابقَ على تواصل وتابع آخر أخبارنا على وسائل التواصل الاجتماعي.',
+      'social-facebook': 'فيسبوك', 'social-instagram': 'إنستغرام', 'social-tiktok': 'تيك توك',
       /* page titles */
       'pt-index': 'سادس — المعادن الثمينة والخدمات المالية | طرابلس، لبنان',
       'pt-about': 'عن الشركة — سادس | طرابلس، لبنان',

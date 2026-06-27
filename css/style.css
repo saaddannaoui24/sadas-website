@@ -1347,6 +1347,93 @@ footer {
 }
 
 /* ============================================================
+   SOCIAL LINKS — footer row + contact section
+   ============================================================ */
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--gold-border);
+  margin-top: 1.5rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--gold-border);
+  border-radius: 50%;
+  color: var(--white-70);
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+  flex-shrink: 0;
+}
+.social-link:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+  background: var(--gold-pale);
+}
+.social-link svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+
+/* Contact page — Follow Us section */
+.contact-social {
+  padding: 5rem 0;
+  background: var(--black-soft);
+  text-align: center;
+}
+.contact-social h2 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin-bottom: 0.5rem;
+}
+.contact-social p {
+  color: var(--white-70);
+  margin-bottom: 2rem;
+}
+.contact-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+.social-link-large {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 1.4rem;
+  border: 1px solid var(--gold-border);
+  border-radius: 4px;
+  color: var(--white-70);
+  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  letter-spacing: 0.04em;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+.social-link-large:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+  background: var(--gold-pale);
+}
+.social-link-large svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+[dir="rtl"] .contact-social-links {
+  flex-direction: row-reverse;
+}
+[dir="rtl"] .footer-social {
+  flex-direction: row-reverse;
+}
+
+/* ============================================================
    LANGUAGE TOGGLE BUTTON
    ============================================================ */
 .lang-toggle {
