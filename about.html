@@ -3,21 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- REPLACE: Update title as desired -->
   <title>About — SADAS | Precious Metals &amp; Financial Services, Tripoli Lebanon</title>
-
-  <!-- REPLACE: Refine description (under 160 characters) -->
   <meta name="description" content="Learn about SADAS — a family business with deep roots in Tripoli, Lebanon, built on decades of expertise, integrity, and trust in precious metals and finance." />
-
   <meta property="og:type"        content="website" />
-  <!-- REPLACE: Update this URL to your real domain -->
   <meta property="og:url"         content="https://sadas.sarl/about.html" />
   <meta property="og:title"       content="About SADAS — Our Story &amp; Heritage" />
   <meta property="og:description" content="A family of trust, built over generations in Tripoli, Lebanon." />
-  <!-- REPLACE: Add a real social image -->
-  <!-- <meta property="og:image" content="https://sadas.sarl/img/og-image.jpg" /> -->
-
   <link rel="icon" type="image/png" href="img/logo-mark.png" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,9 +16,7 @@
 </head>
 <body>
 
-  <!-- ========================================================
-       NAVBAR — data-always-scrolled="true" = frosted glass from page load
-       ======================================================== -->
+  <!-- NAVBAR -->
   <nav class="navbar" data-always-scrolled="true" aria-label="Main navigation">
     <div class="container">
       <a href="index.html" class="nav-logo" aria-label="SADAS — Home">
@@ -36,16 +25,16 @@
       </a>
 
       <ul class="nav-links" role="list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html"    data-i18n="nav-home">Home</a></li>
+        <li><a href="about.html"   data-i18n="nav-about">About</a></li>
+        <li><a href="services.html" data-i18n="nav-services">Services</a></li>
+        <li><a href="contact.html" data-i18n="nav-contact">Contact</a></li>
       </ul>
 
+      <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">&#1593;</button>
+
       <button class="nav-hamburger" aria-label="Open navigation menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
@@ -53,24 +42,21 @@
   <!-- Mobile nav overlay -->
   <nav class="nav-mobile" aria-label="Mobile navigation">
     <button class="nav-mobile-close" aria-label="Close navigation">&#10005;</button>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
+    <a href="index.html"    data-i18n="nav-home">Home</a>
+    <a href="about.html"   data-i18n="nav-about">About</a>
+    <a href="services.html" data-i18n="nav-services">Services</a>
+    <a href="contact.html" data-i18n="nav-contact">Contact</a>
   </nav>
 
   <main>
 
-    <!-- ======================================================
-         PAGE HERO HEADER
-         ====================================================== -->
+    <!-- PAGE HERO -->
     <header class="page-hero">
       <div class="container">
         <div class="page-hero-inner">
-          <span class="section-label">About Us</span>
-          <h1>A Heritage of Precision<br>and Trust</h1>
-          <!-- REPLACE: Adjust this lead paragraph to match your company's tone -->
-          <p class="lead">
+          <span class="section-label" data-i18n="about-page-label">About Us</span>
+          <h1 data-i18n-html="about-page-title">A Heritage of Precision<br>and Trust</h1>
+          <p class="lead" data-i18n="about-page-lead">
             Generations of expertise. A single, unwavering standard.
             SADAS has been a name synonymous with integrity in Tripoli's
             precious metals and financial landscape.
@@ -79,35 +65,28 @@
       </div>
     </header>
 
-    <!-- ======================================================
-         COMPANY STORY
-         ====================================================== -->
+    <!-- COMPANY STORY -->
     <section class="about-story">
       <div class="container">
         <div class="story-grid">
 
-          <!-- Story text -->
           <div class="story-text">
-            <span class="section-label reveal">Our Story</span>
-            <h2 class="reveal delay-1">Rooted in Tripoli,<br>Trusted Across the Region</h2>
+            <span class="section-label reveal" data-i18n="about-story-label">Our Story</span>
+            <h2 class="reveal delay-1" data-i18n-html="about-story-title">Rooted in Tripoli,<br>Trusted Across the Region</h2>
             <div class="divider reveal delay-2"></div>
-
-            <!-- REPLACE: Replace all three paragraphs below with your actual company history.
-                          Include when the firm was founded, by whom, how it has grown,
-                          and what makes your family's approach distinctive. -->
-            <p class="reveal delay-2">
+            <p class="reveal delay-2" data-i18n="about-story-p1">
               SADAS — Saadeddine Abdulrahman Dannaoui &amp; Sons — was founded in Tripoli, Lebanon
               with a simple but enduring conviction: that trust is the only real currency in this
               business. From its earliest days, the firm built its reputation one transaction at a
               time, earning the confidence of merchants, families, and institutions across the region.
             </p>
-            <p class="reveal delay-3">
+            <p class="reveal delay-3" data-i18n="about-story-p2">
               Over the decades, we have grown alongside our clients — expanding our capabilities
               in precious metals, broadening our financial services, and deepening our understanding
               of the markets that matter most to the people we serve. Yet throughout all of this,
               the firm has remained what it has always been: a family business, guided by family values.
             </p>
-            <p class="reveal delay-4">
+            <p class="reveal delay-4" data-i18n="about-story-p3">
               Today, SADAS continues to operate from Tripoli — the north's historic commercial heart —
               and stands as one of the region's most respected names in gold, silver, and specialist
               financial counsel. Our clients return not only for our expertise, but for the peace of
@@ -117,14 +96,6 @@
 
           <!-- Office photo grid -->
           <div class="reveal delay-2">
-            <!--
-              HOW TO ADD YOUR OFFICE PHOTOS:
-              Save the three office photos to this folder using these exact filenames:
-                img/office-exterior.jpg   the storefront / exterior photo
-                img/office-interior.jpg   the inside-looking-out photo
-                img/office-logo.jpg       the logo wall / interior signage photo
-              Once the files are in place, the photos appear automatically.
-            -->
             <div class="office-photos">
               <div class="office-photo-main">
                 <img src="img/office-exterior.jpg"
@@ -150,16 +121,14 @@
       </div>
     </section>
 
-    <!-- ======================================================
-         WHY SADAS — Trust Pillars
-         ====================================================== -->
+    <!-- WHY SADAS — Trust Pillars -->
     <section class="about-pillars">
       <div class="container">
         <div class="section-header center reveal">
-          <span class="section-label">Why SADAS</span>
-          <h2>What Sets Us Apart</h2>
+          <span class="section-label" data-i18n="about-pillars-label">Why SADAS</span>
+          <h2 data-i18n="about-pillars-title">What Sets Us Apart</h2>
           <div class="divider center"></div>
-          <p>
+          <p data-i18n="about-pillars-p">
             Four principles have guided every decision since the firm's founding —
             and they guide every decision we make today.
           </p>
@@ -169,9 +138,8 @@
 
           <article class="pillar reveal delay-1">
             <span class="pillar-icon" aria-hidden="true">&#10070;</span>
-            <h3>Expertise</h3>
-            <!-- REPLACE: Adjust description to match your specific areas of expertise -->
-            <p>
+            <h3 data-i18n="about-p1-title">Expertise</h3>
+            <p data-i18n="about-p1-desc">
               Decades of hands-on experience in gold and silver markets give our team
               an edge that no software can replicate — and our clients know it.
             </p>
@@ -179,8 +147,8 @@
 
           <article class="pillar reveal delay-2">
             <span class="pillar-icon" aria-hidden="true">&#10687;</span>
-            <h3>Integrity</h3>
-            <p>
+            <h3 data-i18n="about-p2-title">Integrity</h3>
+            <p data-i18n="about-p2-desc">
               Every valuation, every transaction, every recommendation is delivered
               with the same honesty we would expect for our own family.
             </p>
@@ -188,9 +156,8 @@
 
           <article class="pillar reveal delay-3">
             <span class="pillar-icon" aria-hidden="true">&#9671;</span>
-            <h3>Local Roots</h3>
-            <!-- REPLACE: Customise to describe your specific ties to Tripoli or the region -->
-            <p>
+            <h3 data-i18n="about-p3-title">Local Roots</h3>
+            <p data-i18n="about-p3-desc">
               Born and built in Tripoli, we understand the rhythms of this market —
               its people, its relationships, and its unique dynamics — better than anyone.
             </p>
@@ -198,8 +165,8 @@
 
           <article class="pillar reveal delay-4">
             <span class="pillar-icon" aria-hidden="true">&#10022;</span>
-            <h3>Discretion</h3>
-            <p>
+            <h3 data-i18n="about-p4-title">Discretion</h3>
+            <p data-i18n="about-p4-desc">
               Client privacy is not a policy — it is a founding value. Every engagement
               with SADAS is treated with absolute confidentiality as a matter of principle.
             </p>
@@ -211,9 +178,7 @@
 
   </main>
 
-  <!-- ========================================================
-       FOOTER
-       ======================================================== -->
+  <!-- FOOTER -->
   <footer>
     <div class="container">
       <div class="footer-inner">
@@ -223,14 +188,14 @@
         </a>
 
         <nav class="footer-links" aria-label="Footer navigation">
-          <a href="about.html">About</a>
-          <a href="services.html">Services</a>
-          <a href="contact.html">Contact</a>
+          <a href="about.html"    data-i18n="nav-about">About</a>
+          <a href="services.html" data-i18n="nav-services">Services</a>
+          <a href="contact.html" data-i18n="nav-contact">Contact</a>
           <a href="mailto:info@sadas.sarl">info@sadas.sarl</a>
           <a href="https://wa.me/9613343065" target="_blank" rel="noopener noreferrer">WhatsApp</a>
         </nav>
 
-        <p class="footer-copy">
+        <p class="footer-copy" data-i18n-html="footer-copy">
           &copy; <span id="year"></span> SADAS. All rights reserved.
         </p>
       </div>
@@ -238,11 +203,7 @@
   </footer>
 
   <!-- WHATSAPP FLOATING BUTTON -->
-  <a href="https://wa.me/9613343065"
-     class="wa-float"
-     target="_blank"
-     rel="noopener noreferrer"
-     aria-label="Chat with us on WhatsApp">
+  <a href="https://wa.me/9613343065" class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
     </svg>
